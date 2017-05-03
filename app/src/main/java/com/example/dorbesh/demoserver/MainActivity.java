@@ -34,13 +34,13 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView address,city,zip,state,floor,name_m1,name_m2,name_m3,name_m4,name_e1,name_e2,name_e3,name_e4;
     private String fName,lName,ownerAddress,ownerCity,ownerZip,ownerState,ownerFloor;
-    private Button btnSave;
     private ImageView houseImg,img_m1,img_m2,img_m3,img_m4,img_e1,img_e2,img_e3,img_e4;
     private Bitmap bitmap;
     private String link;
     private String name;
     private String Oid;
     private int count;
+    private int count1;
     private String id = "3";
     private int PICK_IMAGE_REQUEST = 1;
     private String url_m1 = "http://appincubatorbd.xyz/homerent/owner_page_data/member_one_retrive.php";
